@@ -1,0 +1,62 @@
+.boykisserlogo {
+    width: 600px;
+    animation: rotation 2s linear infinite;
+    transform-style: preserve-3d;
+    position: 0;
+
+
+
+
+
+}
+
+@keyframes rotation {
+
+    from {
+        transform: rotateY(0deg);
+         }
+
+    to {
+
+        transform: rotateY(360deg);
+       }
+
+    }
+        
+.container {
+    perspective: 1000px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+
+    animation: changement 5s infinite;
+
+}
+
+@keyframes changement {
+
+    0% {
+         background-color: pink;
+         }
+
+    50% {
+
+         background-color: white;
+        }
+    100%  {
+
+        background-color: pink;
+        }
+
+    }
+
+p {
+    color: black;
+    font-size: 30px;
+}
+       
