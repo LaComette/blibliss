@@ -115,7 +115,7 @@ p {
 }
 
 .bodysecret {
-    background-color: rgba(255, 190, 68, 0.483);
+    background-color: rgba(246, 182, 255, 0.483);
 }
 
 .body2 {
@@ -134,4 +134,21 @@ p {
     display: flex;
     justify-content: center;
 
+}
+
+.h1index{
+
+    background-color: pink;
+
+}
+.pclassique{
+
+    margin-top: 100px 30vw 260px;
+
+}
+
+.wowbro{
+    margin-top: 500px;
+
+    font-size: 10px 3vw 26px ;
 }
