@@ -55,8 +55,73 @@ body{
 
     }
 
+
+@keyframes changement2 {
+
+    0% {
+         background-color: white;
+         }
+
+    50% {
+
+         background-color: pink;
+        }
+    100%  {
+
+        background-color: white;
+        }
+
+    }
+    
+
 p {
     color: black;
     font-size: 30px;
 }
        
+
+.bouton1{
+
+    color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-color: black;
+    background-color: pink;
+    margin-top: 100px;
+    animation: changement2 5s infinite;
+    width: 200px;
+    height: 60px;
+}
+.bouton2{  
+    color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-color: black;
+    background-color: pink;
+    margin-top: 10px;
+    animation: changement2 5s infinite;
+    width: 200px;
+    height: 60px;
+    display: block;
+
+}
+
+.bouton3{  
+    color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-color: black;
+    background-color: pink;
+    margin-top: 10px;
+    animation: changement2 5s infinite;
+    width: 200px;
+    height: 60px;
+    display: block;
+
+}
+
+.boykisser-spin{
+
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
