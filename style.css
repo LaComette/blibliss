@@ -1,127 +1,137 @@
 .boykisserlogo {
-    width: 600px;
+    width: clamp(250px, 40vw, 600px);
     animation: rotation 2s linear infinite;
     transform-style: preserve-3d;
-    position: 0;
-
-
-
-
-
+    position: relative;
 }
 
 @keyframes rotation {
 
     from {
         transform: rotateY(0deg);
-         }
+    }
 
     to {
-
         transform: rotateY(360deg);
-       }
-
     }
-        
-.container {
-    perspective: 1000px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
 
-body{
+.container {
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.body1 {
     animation: changement 5s infinite;
-
 }
 
 @keyframes changement {
 
     0% {
-         background-color: pink;
-         }
-
-    50% {
-
-         background-color: white;
-        }
-    100%  {
-
         background-color: pink;
-        }
-
     }
 
+    50% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: pink;
+    }
+
+}
 
 @keyframes changement2 {
 
     0% {
-         background-color: white;
-         }
+        background-color: white;
+    }
 
     50% {
-
-         background-color: pink;
-        }
-    100%  {
-
-        background-color: white;
-        }
-
+        background-color: pink;
     }
-    
+
+    100% {
+        background-color: white;
+    }
+
+}
 
 p {
     color: black;
-    font-size: 30px;
+    font-size: clamp(1.1rem, 4vw, 1.9rem); 
 }
-       
 
-.bouton1{
-
+.bouton1 {
     color: rgb(0, 0, 0);
     border-width: 3px;
     border-color: black;
     background-color: pink;
-    margin-top: 100px;
+    margin-top: clamp(40px, 10vh, 100px);
     animation: changement2 5s infinite;
-    width: 200px;
-    height: 60px;
+    width: clamp(150px, 40vw, 200px);
+    height: clamp(45px, 10vw, 60px);
 }
-.bouton2{  
+
+.bouton2 {
+    color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-color: black;
+    background-color: pink;
+    margin-top: 10px; 
+    animation: changement2 5s infinite;
+    width: clamp(150px, 40vw, 200px);
+    height: clamp(45px, 10vw, 60px);
+    display: block;
+}
+
+.bouton3 {
     color: rgb(0, 0, 0);
     border-width: 3px;
     border-color: black;
     background-color: pink;
     margin-top: 10px;
     animation: changement2 5s infinite;
-    width: 200px;
-    height: 60px;
+    width: clamp(150px, 40vw, 200px);
+    height: clamp(45px, 10vw, 60px);
     display: block;
-
 }
 
-.bouton3{  
-    color: rgb(0, 0, 0);
-    border-width: 3px;
-    border-color: black;
-    background-color: pink;
-    margin-top: 10px;
-    animation: changement2 5s infinite;
-    width: 200px;
-    height: 60px;
-    display: block;
-
-}
-
-.boykisser-spin{
-
-    width: 1000px;
+.boykisser-spin {
+    width: clamp(300px, 70vw, 1000px);
     display: flex;
     justify-content: center;
-    
-    
+}
+
+.h1htregg {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 128, 128, 0.366);
+    border-color: black;
+    border-radius: 2px;
+}
+
+.bodysecret {
+    background-color: rgba(255, 190, 68, 0.483);
+}
+
+.body2 {
+    background-color: white;
+}
+
+.screensaverbk {
+    width: clamp(120px, 30vw, 300px); 
+    z-index: 1;
+}
+
+.screensaverbktitle {
+    background-color: pink;
+    position: relative; 
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+
 }
